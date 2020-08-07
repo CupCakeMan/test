@@ -13,5 +13,5 @@ install:
   - npm install electron-builder -g
 
 build_script:
-  - electron-builder -mwl
+  - electron-builder -w
   - type C:\Users\appveyor\AppData\Roaming\npm-cache\_logs\2020-08-07T22_46_55_179Z-debug.log
