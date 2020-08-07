@@ -10,9 +10,7 @@ cache:
 install:
   - ps: Install-Product node 12 x64
   - npm install
-  - npm install electron
-  - npm install electron-packager
 
 build_script:
-  - npm run dist
+  - electron-builder -mwl
   - type C:\Users\appveyor\AppData\Roaming\npm-cache\_logs\2020-08-07T22_46_55_179Z-debug.log
