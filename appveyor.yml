@@ -10,6 +10,7 @@ cache:
 install:
   - ps: Install-Product node 12 x64
   - npm install
+  - npm install electron-builder -g
 
 build_script:
   - electron-builder -mwl
