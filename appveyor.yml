@@ -9,8 +9,9 @@ cache:
 
 install:
   - ps: Install-Product node 12 x64
-  - npm --add-python-to-path='true' --vs2017 --debug install --global --production windows-build-tools
   - npm install
+  - npm install electron
+  - npm install electron-packager
 
 build_script:
   - npm run dist
