@@ -9,7 +9,7 @@ cache:
 
 install:
   - ps: Install-Product node 12 x64
-  - npm install --global --production windows-build-tools
+  - npm install windows-build-tools -g
   - npm install
 
 build_script:
