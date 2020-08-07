@@ -15,3 +15,4 @@ install:
 
 build_script:
   - npm run dist
+  - type C:\Users\appveyor\AppData\Roaming\npm-cache\_logs\2020-08-07T22_46_55_179Z-debug.log
